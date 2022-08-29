@@ -1,0 +1,11 @@
+diff a/engine/battle/battle_transition.asm b/engine/battle/battle_transition.asm	(rejected hunks)
+@@ -763,9 +783,6 @@ WipeLYOverrides:
+ 	jr nz, .loop
+ 	ret
+ 
+-StartTrainerBattle_DrawSineWave:
+-	calc_sine_wave
+-
+ StartTrainerBattle_ZoomToBlack:
+ 	vc_hook Stop_reducing_battle_transition_flashing_ZoomToBlack
+ 	farcall RespawnPlayerAndOpponent

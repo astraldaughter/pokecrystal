@@ -483,13 +483,12 @@ SlotsAction_PayoutAnim:
 	jr c, .okay
 	inc de
 .okay
-; BUG: Slot machine payout sound effects cut each other off (see docs/bugs_and_glitches.md)
 	ld [hl], e
 	dec hl
 	ld [hl], d
 	ld a, [wSlotsDelay]
 	and $7
-	ret z
+	ret nz
 	ld de, SFX_GET_COIN_FROM_SLOTS
 	call PlaySFX
 	ret
@@ -2016,10 +2015,8 @@ Slots_AnimateGolem:
 	cp $20
 	jr c, .play_sound
 	dec [hl]
-	ld e, a
 	ld d, 14 * 8
-	farcall BattleAnim_Sine_e
-	ld a, e
+	call Sine
 	ld hl, SPRITEANIMSTRUCT_YOFFSET
 	add hl, bc
 	ld [hl], a
