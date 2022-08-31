@@ -124,8 +124,6 @@ StatsScreen_WaitAnim:
 	ret
 
 .try_anim
-	farcall SetUpPokeAnim
-	jr nc, .finish
 	ld hl, wStatsScreenFlags
 	res 6, [hl]
 .finish
@@ -902,10 +900,6 @@ StatsScreen_PlaceFrontpic:
 	call StatsScreen_LoadTextboxSpaceGFX
 	ld de, vTiles2 tile $00
 	predef GetAnimatedFrontpic
-	hlcoord 0, 0
-	ld d, $0
-	ld e, ANIM_MON_MENU
-	predef LoadMonAnimation
 	ld hl, wStatsScreenFlags
 	set 6, [hl]
 	ret
@@ -961,6 +955,7 @@ StatsScreen_GetAnimationParam:
 	jr z, .egg
 	call CheckFaintedFrzSlp
 	jr c, .FaintedFrzSlp
+	jr .Wildmon
 .egg
 	xor a
 	scf
@@ -1112,9 +1107,6 @@ StatsScreen_AnimateEgg:
 	ld de, vTiles2 tile $00
 	predef GetAnimatedFrontpic
 	pop de
-	hlcoord 0, 0
-	ld d, $0
-	predef LoadMonAnimation
 	ld hl, wStatsScreenFlags
 	set 6, [hl]
 	ret

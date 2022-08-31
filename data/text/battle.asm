@@ -8,7 +8,7 @@ BattleText_PlayerPickedUpPayDayMoney:
 	prompt
 
 WildPokemonAppearedText:
-	text "Wild @"
+	text "A wild @"
 	text_ram wEnemyMonNickname
 	text_start
 	line "appeared!"
