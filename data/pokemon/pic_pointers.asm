@@ -9,12 +9,12 @@ PokemonPicPointers::
 	dba IvysaurBackpic
 	dba VenusaurFrontpic
 	dba VenusaurBackpic
-	dba CharmanderFrontpic
-	dba CharmanderBackpic
-	dba CharmeleonFrontpic
-	dba CharmeleonBackpic
-	dba CharizardFrontpic
-	dba CharizardBackpic
+	dba PangolowFrontpic
+	dba PangolowBackpic
+	dba PangniteFrontpic
+	dba PangniteBackpic
+	dba PangarmaFrontpic
+	dba PangarmaBackpic
 	dba SquirtleFrontpic
 	dba SquirtleBackpic
 	dba WartortleFrontpic

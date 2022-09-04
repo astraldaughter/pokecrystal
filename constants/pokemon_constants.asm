@@ -22,9 +22,9 @@
 	const BULBASAUR  ; 01
 	const IVYSAUR    ; 02
 	const VENUSAUR   ; 03
-	const CHARMANDER ; 04
-	const CHARMELEON ; 05
-	const CHARIZARD  ; 06
+	const PANGOLOW   ; 04
+	const PANGNITE ; 05
+	const PANGARMA   ; 06
 	const SQUIRTLE   ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
