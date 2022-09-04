@@ -1134,7 +1134,7 @@ AI_Smart_SpDefenseUp2:
 	ld d, a
 ; Get the pointer for the player's Pokémon's base Special Attack
 	ld bc, BASE_SAT - BASE_ATK
-+	add hl, bc
+	add hl, bc
 ; Get the Pokémon's base Special Attack
 	ld a, BANK(BaseData)
 	call GetFarByte
