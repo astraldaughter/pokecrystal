@@ -13,7 +13,7 @@ AlphabeticalPokedexOrder:
 	db ARTICUNO
 	db AZUMARILL
 	db BAYLEEF
-	db BEEDRILL
+	db CHICKUB
 	db BELLOSSOM
 	db BELLSPROUT
 	db BLASTOISE
@@ -100,7 +100,7 @@ AlphabeticalPokedexOrder:
 	db KABUTO
 	db KABUTOPS
 	db KADABRA
-	db KAKUNA
+	db NYAMPOSTOR
 	db KANGASKHAN
 	db KINGDRA
 	db KINGLER
@@ -160,8 +160,8 @@ AlphabeticalPokedexOrder:
 	db PHANPY
 	db PICHU
 	db PIDGEOT
-	db PIDGEOTTO
-	db PIDGEY
+	db AVIARID
+	db AVIANZU
 	db PIKACHU
 	db PILOSWINE
 	db PINECO
@@ -243,7 +243,7 @@ AlphabeticalPokedexOrder:
 	db VOLTORB
 	db VULPIX
 	db WARTORTLE
-	db WEEDLE
+	db STRAIKIT
 	db WEEPINBELL
 	db WEEZING
 	db WIGGLYTUFF

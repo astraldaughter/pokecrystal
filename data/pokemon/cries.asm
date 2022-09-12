@@ -15,14 +15,14 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,     96,  192 ; SQUIRTLE
 	mon_cry CRY_SQUIRTLE,     32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
-	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
-	mon_cry CRY_METAPOD,     204,  129 ; METAPOD
+	mon_cry CRY_PIDGEY,      255,  256 ; CATERPIE
+	mon_cry CRY_METAPOD,     136,  209 ; METAPOD
 	mon_cry CRY_CATERPIE,    119,  192 ; BUTTERFREE
 	mon_cry CRY_WEEDLE,      238,  129 ; WEEDLE
-	mon_cry CRY_BLASTOISE,   255,  129 ; KAKUNA
-	mon_cry CRY_BLASTOISE,    96,  256 ; BEEDRILL
-	mon_cry CRY_PIDGEY,      223,  132 ; PIDGEY
-	mon_cry CRY_PIDGEOTTO,    40,  320 ; PIDGEOTTO
+	mon_cry CRY_BLASTOISE,   255,  129 ; NYAMPOSTOR
+	mon_cry CRY_BLASTOISE,    96,  256 ; CHICKUB
+	mon_cry CRY_PIDGEY,      223,  132 ; AVIANZU
+	mon_cry CRY_PIDGEOTTO,    40,  320 ; AVIARID
 	mon_cry CRY_PIDGEOTTO,    17,  383 ; PIDGEOT
 	mon_cry CRY_RATTATA,       0,  256 ; RATTATA
 	mon_cry CRY_RATTATA,      32,  383 ; RATICATE

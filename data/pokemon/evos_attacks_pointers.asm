@@ -14,11 +14,11 @@ EvosAttacksPointers::
 	dw CaterpieEvosAttacks
 	dw MetapodEvosAttacks
 	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
-	dw PidgeyEvosAttacks
-	dw PidgeottoEvosAttacks
+	dw StraikitEvosAttacks
+	dw NyampostorEvosAttacks
+	dw ChickubEvosAttacks
+	dw AvianzuEvosAttacks
+	dw AviaridEvosAttacks
 	dw PidgeotEvosAttacks
 	dw RattataEvosAttacks
 	dw RaticateEvosAttacks

@@ -4,7 +4,7 @@ SpriteMons:
 	db UNOWN
 	db GEODUDE
 	db GROWLITHE
-	db WEEDLE
+	db STRAIKIT
 	db SHELLDER
 	db ODDISH
 	db GENGAR

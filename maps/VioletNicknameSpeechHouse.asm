@@ -18,7 +18,7 @@ VioletNicknameSpeechHouseBirdScript:
 	faceplayer
 	opentext
 	writetext VioletNicknameSpeechHouseBirdText
-	cry PIDGEY
+	cry AVIANZU
 	waitbutton
 	closetext
 	end
@@ -34,7 +34,7 @@ VioletNicknameSpeechHouseTeacherText:
 	done
 
 VioletNicknameSpeechHouseLassText:
-	text "I call my PIDGEY"
+	text "I call my AVIANZU"
 	line "STRAWBERRY!"
 	done
 

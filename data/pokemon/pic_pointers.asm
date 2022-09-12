@@ -27,16 +27,16 @@ PokemonPicPointers::
 	dba MetapodBackpic
 	dba ButterfreeFrontpic
 	dba ButterfreeBackpic
-	dba WeedleFrontpic
-	dba WeedleBackpic
-	dba KakunaFrontpic
-	dba KakunaBackpic
-	dba BeedrillFrontpic
-	dba BeedrillBackpic
-	dba PidgeyFrontpic
-	dba PidgeyBackpic
-	dba PidgeottoFrontpic
-	dba PidgeottoBackpic
+	dba StraikitFrontpic
+	dba StraikitBackpic
+	dba NyampostorFrontpic
+	dba NyampostorBackpic
+	dba ChickubFrontpic
+	dba ChickubBackpic
+	dba AvianzuFrontpic
+	dba AvianzuBackpic
+	dba AviaridFrontpic
+	dba AviaridBackpic
 	dba PidgeotFrontpic
 	dba PidgeotBackpic
 	dba RattataFrontpic

@@ -4,20 +4,20 @@ IconPointers:
 	dw BulbasaurIcon
 	dw IvysaurIcon
 	dw VenusaurIcon
-	dw CharmanderIcon
-	dw CharmeleonIcon
-	dw CharizardIcon
+	dw PangolowIcon
+	dw PangniteIcon
+	dw PangarmaIcon
 	dw SquirtleIcon
 	dw WartortleIcon
 	dw BlastoiseIcon
 	dw CaterpieIcon
 	dw MetapodIcon
 	dw ButterfreeIcon
-	dw WeedleIcon
-	dw KakunaIcon
-	dw BeedrillIcon
-	dw PidgeyIcon
-	dw PidgeottoIcon
+	dw StraikitIcon
+	dw NyampostorIcon
+	dw ChickubIcon
+	dw AvianzuIcon
+	dw AviaridIcon
 	dw PidgeotIcon
 	dw RattataIcon
 	dw RaticateIcon

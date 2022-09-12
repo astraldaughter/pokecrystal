@@ -11,8 +11,8 @@ NewPokedexOrder:
 	db TOTODILE
 	db CROCONAW
 	db FERALIGATR
-	db PIDGEY
-	db PIDGEOTTO
+	db AVIANZU
+	db AVIARID
 	db PIDGEOT
 	db SPEAROW
 	db FEAROW
@@ -28,9 +28,9 @@ NewPokedexOrder:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db WEEDLE
-	db KAKUNA
-	db BEEDRILL
+	db STRAIKIT
+	db NYAMPOSTOR
+	db CHICKUB
 	db LEDYBA
 	db LEDIAN
 	db SPINARAK
