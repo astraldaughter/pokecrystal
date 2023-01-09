@@ -1272,8 +1272,6 @@ BattleCommand_Stab:
 	ld c, l
 	srl b
 	rr c
-	srl b
-	rr c
 	add hl, bc
 
 	ld a, h
