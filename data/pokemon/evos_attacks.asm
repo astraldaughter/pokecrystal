@@ -197,20 +197,21 @@ ButterfreeEvosAttacks:
 	db 40, SAFEGUARD
 	db 0 ; no more level-up moves
 
-StraikitEvosAttacks:
-	db EVOLVE_LEVEL, 20, NYAMPOSTOR
+WeedleEvosAttacks:
+	db EVOLVE_LEVEL, 7, KAKUNA
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, STRING_SHOT
 	db 0 ; no more level-up moves
 
-NyampostorEvosAttacks:
+KakunaEvosAttacks:
+	db EVOLVE_LEVEL, 10, BEEDRILL
 	db 0 ; no more evolutions
 	db 1, HARDEN
 	db 7, HARDEN
 	db 0 ; no more level-up moves
 
-ChickubEvosAttacks:
+BeedrillEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, FURY_ATTACK
 	db 10, FURY_ATTACK
@@ -222,8 +223,8 @@ ChickubEvosAttacks:
 	db 40, AGILITY
 	db 0 ; no more level-up moves
 
-AvianzuEvosAttacks:
-	db EVOLVE_LEVEL, 18, AVIARID
+PidgeyEvosAttacks:
+	db EVOLVE_LEVEL, 18, PIDGEOTTO
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 5, SAND_ATTACK
@@ -235,7 +236,7 @@ AvianzuEvosAttacks:
 	db 47, MIRROR_MOVE
 	db 0 ; no more level-up moves
 
-AviaridEvosAttacks:
+PidgeottoEvosAttacks:
 	db EVOLVE_LEVEL, 36, PIDGEOT
 	db 0 ; no more evolutions
 	db 1, TACKLE

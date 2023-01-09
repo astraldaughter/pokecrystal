@@ -4,9 +4,9 @@ AsleepTreeMonsNite:
 	db CATERPIE
 	db METAPOD
 	db BUTTERFREE
-	db STRAIKIT
-	db NYAMPOSTOR
-	db CHICKUB
+	db WEEDLE
+	db KAKUNA
+	db BEEDRILL
 	db SPEAROW
 	db EKANS
 	db EXEGGCUTE

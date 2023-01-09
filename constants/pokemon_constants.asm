@@ -31,11 +31,11 @@
 	const CATERPIE   ; 0a
 	const METAPOD    ; 0b
 	const BUTTERFREE ; 0c
-	const STRAIKIT     ; 0d
-	const NYAMPOSTOR     ; 0e
-	const CHICKUB   ; 0f
-	const AVIANZU     ; 10
-	const AVIARID  ; 11
+	const WEEDLE     ; 0d
+	const KAKUNA     ; 0e
+	const BEEDRILL   ; 0f
+	const PIDGEY     ; 10
+	const PIDGEOTTO  ; 11
 	const PIDGEOT    ; 12
 	const RATTATA    ; 13
 	const RATICATE   ; 14

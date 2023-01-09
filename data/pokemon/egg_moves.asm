@@ -39,7 +39,7 @@ SquirtleEggMoves:
 	db FLAIL
 	db -1 ; end
 
-AvianzuEggMoves:
+PidgeyEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK
 	db FORESIGHT

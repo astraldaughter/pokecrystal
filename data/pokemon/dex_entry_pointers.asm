@@ -13,11 +13,11 @@ PokedexDataPointerTable:
 	dba CaterpiePokedexEntry
 	dba MetapodPokedexEntry
 	dba ButterfreePokedexEntry
-	dba StraikitPokedexEntry
-	dba NyampostorPokedexEntry
-	dba ChickubPokedexEntry
-	dba AvianzuPokedexEntry
-	dba AviaridPokedexEntry
+	dba WeedlePokedexEntry
+	dba KakunaPokedexEntry
+	dba BeedrillPokedexEntry
+	dba PidgeyPokedexEntry
+	dba PidgeottoPokedexEntry
 	dba PidgeotPokedexEntry
 	dba RattataPokedexEntry
 	dba RaticatePokedexEntry

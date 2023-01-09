@@ -14,11 +14,11 @@ KantoMonSpecials:
 	db  20 ; CATERPIE
 	db  25 ; METAPOD
 	db  80 ; BUTTERFREE
-	db  20 ; STRAIKIT
-	db  25 ; NYAMPOSTOR
-	db  45 ; CHICKUB
-	db  35 ; AVIANZU
-	db  50 ; AVIARID
+	db  20 ; WEEDLE
+	db  25 ; KAKUNA
+	db  45 ; BEEDRILL
+	db  35 ; PIDGEY
+	db  50 ; PIDGEOTTO
 	db  70 ; PIDGEOT
 	db  25 ; RATTATA
 	db  50 ; RATICATE

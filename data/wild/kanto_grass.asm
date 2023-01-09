@@ -173,21 +173,21 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 2, AVIANZU
+	db 2, PIDGEY
 	db 2, RATTATA
 	db 3, SENTRET
-	db 3, AVIANZU
+	db 3, PIDGEY
 	db 6, FURRET
-	db 4, AVIANZU
-	db 4, AVIANZU
+	db 4, PIDGEY
+	db 4, PIDGEY
 	; day
-	db 2, AVIANZU
+	db 2, PIDGEY
 	db 2, RATTATA
 	db 3, SENTRET
-	db 3, AVIANZU
+	db 3, PIDGEY
 	db 6, FURRET
-	db 4, AVIANZU
-	db 4, AVIANZU
+	db 4, PIDGEY
+	db 4, PIDGEY
 	; nite
 	db 2, HOOTHOOT
 	db 2, RATTATA
@@ -203,17 +203,17 @@ KantoGrassWildMons:
 	; morn
 	db 3, CATERPIE
 	db 3, LEDYBA
-	db 5, AVIANZU
+	db 5, PIDGEY
 	db 7, BUTTERFREE
 	db 7, LEDIAN
 	db 4, PIKACHU
 	db 4, PIKACHU
 	; day
 	db 3, CATERPIE
-	db 3, AVIANZU
-	db 5, AVIANZU
+	db 3, PIDGEY
+	db 5, PIDGEY
 	db 7, BUTTERFREE
-	db 7, AVIARID
+	db 7, PIDGEOTTO
 	db 4, PIKACHU
 	db 4, PIKACHU
 	; nite
@@ -285,17 +285,17 @@ KantoGrassWildMons:
 	def_grass_wildmons ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, AVIANZU
+	db 13, PIDGEY
 	db 13, SNUBBULL
-	db 15, AVIARID
+	db 15, PIDGEOTTO
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
 	db 14, ABRA
 	; day
-	db 13, AVIANZU
+	db 13, PIDGEY
 	db 13, SNUBBULL
-	db 15, AVIARID
+	db 15, PIDGEOTTO
 	db 12, ABRA
 	db 14, JIGGLYPUFF
 	db 14, ABRA
@@ -370,7 +370,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 17, SNUBBULL
-	db 19, AVIARID
+	db 19, PIDGEOTTO
 	db 16, ABRA
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
@@ -378,7 +378,7 @@ KantoGrassWildMons:
 	db 18, KADABRA
 	; day
 	db 17, SNUBBULL
-	db 19, AVIARID
+	db 19, PIDGEOTTO
 	db 16, ABRA
 	db 17, GROWLITHE
 	db 16, JIGGLYPUFF
@@ -456,7 +456,7 @@ KantoGrassWildMons:
 	db 14, HOPPIP
 	db 13, RATICATE
 	db 15, MAGNEMITE
-	db 16, AVIARID
+	db 16, PIDGEOTTO
 	db 16, RATTATA
 	db 16, HOPPIP
 	db 16, HOPPIP
@@ -464,7 +464,7 @@ KantoGrassWildMons:
 	db 14, HOPPIP
 	db 13, RATICATE
 	db 15, MAGNEMITE
-	db 16, AVIARID
+	db 16, PIDGEOTTO
 	db 16, RATTATA
 	db 16, HOPPIP
 	db 16, HOPPIP
@@ -483,7 +483,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, AVIARID
+	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -491,7 +491,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, AVIARID
+	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -511,7 +511,7 @@ KantoGrassWildMons:
 	; morn
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, AVIARID
+	db 28, PIDGEOTTO
 	db 28, HOPPIP
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
@@ -519,7 +519,7 @@ KantoGrassWildMons:
 	; day
 	db 26, NIDORINO
 	db 26, NIDORINA
-	db 28, AVIARID
+	db 28, PIDGEOTTO
 	db 28, HOPPIP
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
@@ -539,7 +539,7 @@ KantoGrassWildMons:
 	; morn
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, AVIARID
+	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -547,7 +547,7 @@ KantoGrassWildMons:
 	; day
 	db 23, NIDORINO
 	db 23, NIDORINA
-	db 25, AVIARID
+	db 25, PIDGEOTTO
 	db 25, HOPPIP
 	db 27, HOPPIP
 	db 27, HOPPIP
@@ -734,16 +734,16 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 10, CATERPIE
-	db 10, AVIANZU
-	db 12, AVIARID
+	db 10, PIDGEY
+	db 12, PIDGEOTTO
 	db 12, METAPOD
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE
 	db 14, BUTTERFREE
 	; day
 	db 10, CATERPIE
-	db 10, AVIANZU
-	db 12, AVIARID
+	db 10, PIDGEY
+	db 12, PIDGEOTTO
 	db 12, METAPOD
 	db 10, BELLSPROUT
 	db 14, BUTTERFREE

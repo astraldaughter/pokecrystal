@@ -2340,7 +2340,7 @@ wSpriteFlags:: db
 
 wHandlePlayerStep:: db
 
-wCurIconMonHasItemOrMail:: db
+	ds 1
 
 wPartyMenuActionText:: db
 

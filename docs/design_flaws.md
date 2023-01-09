@@ -160,7 +160,7 @@ Footprints:
 INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_top
 INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_top
 INCBIN "gfx/footprints/venusaur.1bpp",   footprint_top
-INCBIN "gfx/footprints/pangolow.1bpp", footprint_top
+INCBIN "gfx/footprints/charmander.1bpp", footprint_top
 INCBIN "gfx/footprints/pangnite.1bpp", footprint_top
 INCBIN "gfx/footprints/pangarma.1bpp",   footprint_top
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
@@ -169,7 +169,7 @@ INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/venusaur.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/pangolow.1bpp", footprint_bottom
+INCBIN "gfx/footprints/charmander.1bpp", footprint_bottom
 INCBIN "gfx/footprints/pangnite.1bpp", footprint_bottom
 INCBIN "gfx/footprints/pangarma.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
@@ -191,7 +191,7 @@ Footprints:
 INCBIN "gfx/footprints/bulbasaur.1bpp"
 INCBIN "gfx/footprints/ivysaur.1bpp"
 INCBIN "gfx/footprints/venusaur.1bpp"
-INCBIN "gfx/footprints/pangolow.1bpp"
+INCBIN "gfx/footprints/charmander.1bpp"
 INCBIN "gfx/footprints/pangnite.1bpp"
 INCBIN "gfx/footprints/charizard.1bpp"
 INCBIN "gfx/footprints/squirtle.1bpp"
