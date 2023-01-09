@@ -23,7 +23,9 @@ AlphabeticalPokedexOrder:
 	db CATERPIE
 	db CELEBI
 	db CHANSEY
-	db PANGNITE
+	db CHARIZARD
+	db CHARMANDER
+	db CHARMELEON
 	db CHIKORITA
 	db CHINCHOU
 	db CLEFABLE
@@ -152,8 +154,6 @@ AlphabeticalPokedexOrder:
 	db OMANYTE
 	db OMASTAR
 	db ONIX
-	db PANGARMA
-	db PANGOLOW
 	db PARAS
 	db PARASECT
 	db PERSIAN

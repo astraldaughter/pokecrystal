@@ -1696,7 +1696,7 @@ DebugMobileTrade:
 	db "ゲーフり@@"
 	dw $0123
 	db "かびーん@@"
-	db PANGARMA
+	db CHARIZARD
 	db "クりーチャ@"
 	dw $0456
 	db "マツミヤ@@"

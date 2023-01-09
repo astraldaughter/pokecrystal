@@ -4,9 +4,9 @@ PokedexDataPointerTable:
 	dba BulbasaurPokedexEntry
 	dba IvysaurPokedexEntry
 	dba VenusaurPokedexEntry
-	dba PangolowPokedexEntry
-	dba PangnitePokedexEntry
-	dba PangarmaPokedexEntry
+	dba CharmanderPokedexEntry
+	dba CharmeleonPokedexEntry
+	dba CharizardPokedexEntry
 	dba SquirtlePokedexEntry
 	dba WartortlePokedexEntry
 	dba BlastoisePokedexEntry

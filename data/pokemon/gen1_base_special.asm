@@ -5,9 +5,9 @@ KantoMonSpecials:
 	db  65 ; BULBASAUR
 	db  80 ; IVYSAUR
 	db 100 ; VENUSAUR
-	db  50 ; PANGOLOW
-	db  65 ; PANGNITE
-	db  85 ; PANGARMA
+	db  50 ; CHARMANDER
+	db  65 ; CHARMELEON
+	db  85 ; CHARIZARD
 	db  50 ; SQUIRTLE
 	db  65 ; WARTORTLE
 	db  85 ; BLASTOISE

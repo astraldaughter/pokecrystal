@@ -21,7 +21,7 @@ BulbasaurEggMoves:
 	db PETAL_DANCE
 	db -1 ; end
 
-PangolowEggMoves:
+CharmanderEggMoves:
 	db BELLY_DRUM
 	db ANCIENTPOWER
 	db ROCK_SLIDE

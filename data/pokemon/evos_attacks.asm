@@ -69,8 +69,8 @@ VenusaurEvosAttacks:
 	db 65, SOLARBEAM
 	db 0 ; no more level-up moves
 
-PangolowEvosAttacks:
-	db EVOLVE_LEVEL, 16, PANGNITE
+CharmanderEvosAttacks:
+	db EVOLVE_LEVEL, 16, CHARMELEON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -84,8 +84,8 @@ PangolowEvosAttacks:
 	db 49, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-PangniteEvosAttacks:
-	db EVOLVE_LEVEL, 36, PANGARMA
+CharmeleonEvosAttacks:
+	db EVOLVE_LEVEL, 36, CHARIZARD
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
@@ -100,7 +100,7 @@ PangniteEvosAttacks:
 	db 55, FIRE_SPIN
 	db 0 ; no more level-up moves
 
-PangarmaEvosAttacks:
+CharizardEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL

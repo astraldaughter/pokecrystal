@@ -5,9 +5,9 @@ EvosAttacksPointers::
 	dw BulbasaurEvosAttacks
 	dw IvysaurEvosAttacks
 	dw VenusaurEvosAttacks
-	dw PangolowEvosAttacks
-	dw PangniteEvosAttacks
-	dw PangarmaEvosAttacks
+	dw CharmanderEvosAttacks
+	dw CharmeleonEvosAttacks
+	dw CharizardEvosAttacks
 	dw SquirtleEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks

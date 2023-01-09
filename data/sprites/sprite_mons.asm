@@ -17,7 +17,7 @@ SpriteMons:
 	db POLIWAG
 	db PIKACHU
 	db CLEFAIRY
-	db PANGOLOW
+	db CHARMANDER
 	db JYNX
 	db STARMIE
 	db BULBASAUR
