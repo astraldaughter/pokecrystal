@@ -34,12 +34,19 @@ MeetMomRightScript:
 	applymovement PLAYERSHOUSE1F_MOM1, MomWalksToPlayerMovement
 MeetMomScript:
 	opentext
-	writetext ElmsLookingForYouText
+	writetext MomRivalLookingForYouText
+	promptbutton
+	special NameRival
+	writetext MomRivalNamedText
+	promptbutton
+	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
+	writetext MomPrePokegearText
 	promptbutton
 	getstring STRING_BUFFER_4, PokegearName
 	scall PlayersHouse1FReceiveItemStd
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
+	setflag ENGINE_MAP_CARD
 	addcellnum PHONE_MOM
 	setscene SCENE_FINISHED
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
@@ -210,22 +217,32 @@ MomWalksBackMovement:
 	slow_step LEFT
 	step_end
 
-ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF."
+MomRivalLookingForYouText:
+	text "Oh, <PLAYER>…! Your"
+	line "friend from next"
 
-	para "ELM, was looking"
+	para "door was looking"
 	line "for you."
 
-	para "He said he wanted"
-	line "you to do some-"
-	cont "thing for him."
+	para "He said he had"
+	line "something cool"
+	cont "to show you."
 
-	para "Oh! I almost for-"
-	line "got! Your #MON"
+	para "Uh… what was"
+	line "his name again?"
+	done
 
-	para "GEAR is back from"
-	line "the repair shop."
+MomRivalNamedText:
+	text "Ah, of course."
+	line "It's <RIVAL>, right?"
+	done
+
+MomPrePokegearText:
+	text "Oh! I almost"
+	line "forgot! Your"
+
+	para "#GEAR arrived"
+	line "earlier."
 
 	para "Here you go!"
 	done
@@ -238,11 +255,15 @@ MomGivesPokegearText:
 	line "you want to be a"
 	cont "good trainer."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "That's what the"
+	line "manual says,"
+	cont "anyway…"
 
-	para "You mustn't forget"
-	line "that!"
+	para "Oh, the date on"
+	line "it isn't set."
+
+	para "You wouldn't want"
+	line "to forget that!"
 	done
 
 IsItDSTText:
@@ -263,11 +284,8 @@ ComeHomeForDSTText:
 	done
 
 KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
-
-	para "on and select the"
-	line "PHONE icon?"
+	text "Oh, that's good."
+	line "Show me some time."
 	done
 
 DontKnowTheInstructionsText:
@@ -387,8 +405,8 @@ PlayersHouse1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  6,  7, NEW_BARK_TOWN, 2
-	warp_event  7,  7, NEW_BARK_TOWN, 2
+	warp_event  6,  7, NIVALE_TOWN, 2
+	warp_event  7,  7, NIVALE_TOWN, 2
 	warp_event  9,  0, PLAYERS_HOUSE_2F, 1
 
 	def_coord_events

@@ -158,7 +158,7 @@ INCLUDE "maps/ElmsHouse.asm"
 INCLUDE "maps/Route26HealHouse.asm"
 INCLUDE "maps/DayOfWeekSiblingsHouse.asm"
 INCLUDE "maps/Route27SandstormHouse.asm"
-INCLUDE "maps/Route29Route46Gate.asm"
+INCLUDE "maps/Route51Route46Gate.asm"
 
 
 SECTION "Map Scripts 10", ROMX
@@ -397,7 +397,7 @@ INCLUDE "maps/OaksLab.asm"
 
 SECTION "Map Scripts 20", ROMX
 
-INCLUDE "maps/CherrygroveCity.asm"
+INCLUDE "maps/CampanulaTown.asm"
 INCLUDE "maps/Route35.asm"
 INCLUDE "maps/Route43.asm"
 INCLUDE "maps/Route44.asm"
@@ -410,7 +410,7 @@ SECTION "Map Scripts 21", ROMX
 
 INCLUDE "maps/CianwoodCity.asm"
 INCLUDE "maps/Route27.asm"
-INCLUDE "maps/Route29.asm"
+INCLUDE "maps/Route51.asm"
 INCLUDE "maps/Route30.asm"
 INCLUDE "maps/Route38.asm"
 INCLUDE "maps/Route13.asm"
@@ -437,7 +437,7 @@ INCLUDE "maps/Route12.asm"
 
 SECTION "Map Scripts 23", ROMX
 
-INCLUDE "maps/NewBarkTown.asm"
+INCLUDE "maps/NivaleTown.asm"
 INCLUDE "maps/VioletCity.asm"
 INCLUDE "maps/OlivineCity.asm"
 INCLUDE "maps/Route37.asm"
@@ -484,3 +484,4 @@ SECTION "Map Scripts 25", ROMX
 
 INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
+INCLUDE "maps/RivalsHouse.asm"

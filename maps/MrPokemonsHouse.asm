@@ -34,7 +34,7 @@ MrPokemonsHouse_MapScripts:
 	waitsfx
 	itemnotify
 	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
-	blackoutmod CHERRYGROVE_CITY
+	blackoutmod CAMPANULA_TOWN
 	writetext MrPokemonIntroText3
 	promptbutton
 	turnobject MRPOKEMONSHOUSE_GENTLEMAN, RIGHT
@@ -124,7 +124,7 @@ MrPokemonsHouse_OakScript:
 	setevent EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
 	clearevent EVENT_PLAYERS_NEIGHBORS_HOUSE_NEIGHBOR
 	setscene SCENE_FINISHED
-	setmapscene CHERRYGROVE_CITY, SCENE_CHERRYGROVECITY_MEET_RIVAL
+	setmapscene CAMPANULA_TOWN, SCENE_CAMPANULATOWN_MEET_RIVAL
 	setmapscene ELMS_LAB, SCENE_ELMSLAB_MEET_OFFICER
 	specialphonecall SPECIALCALL_ROBBED
 	clearevent EVENT_COP_IN_ELMS_LAB

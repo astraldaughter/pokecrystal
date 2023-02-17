@@ -97,13 +97,12 @@ MACRO connection
 ENDM
 
 
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $05, WEST | EAST
-	connection west, Route29, ROUTE_29, 0
-	connection east, Route27, ROUTE_27, 0
+	map_attributes NivaleTown, NIVALE_TOWN, $05, EAST
+	connection east, Route51, ROUTE_51, 0
 
-	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $35, NORTH | EAST
+	map_attributes CampanulaTown, CAMPANULA_TOWN, $05, NORTH | WEST
 	connection north, Route30, ROUTE_30, 5
-	connection east, Route29, ROUTE_29, 0
+	connection west, Route51, ROUTE_51, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $05, SOUTH | WEST | EAST
 	connection south, Route32, ROUTE_32, 0
@@ -149,20 +148,20 @@ ENDM
 	connection west, Route27, ROUTE_27, 45
 
 	map_attributes Route27, ROUTE_27, $35, WEST | EAST
-	connection west, NewBarkTown, NEW_BARK_TOWN, 0
-	connection east, Route26, ROUTE_26, -45
+	connection west, Route26, ROUTE_26, -45
+	connection east, NivaleTown, NIVALE_TOWN, 0	
 
 	map_attributes Route28, ROUTE_28, $2c, WEST
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -9
 
-	map_attributes Route29, ROUTE_29, $05, NORTH | WEST | EAST
+	map_attributes Route51, ROUTE_51, $05, NORTH | WEST | EAST
 	connection north, Route46, ROUTE_46, 10
-	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
-	connection east, NewBarkTown, NEW_BARK_TOWN, 0
+	connection west, NivaleTown, NIVALE_TOWN, 0
+	connection east, CampanulaTown, CAMPANULA_TOWN, 0
 
 	map_attributes Route30, ROUTE_30, $05, NORTH | SOUTH
 	connection north, Route31, ROUTE_31, -10
-	connection south, CherrygroveCity, CHERRYGROVE_CITY, -5
+	connection south, CampanulaTown, CAMPANULA_TOWN, -5
 
 	map_attributes Route31, ROUTE_31, $05, SOUTH | WEST
 	connection south, Route30, ROUTE_30, 10
@@ -226,7 +225,7 @@ ENDM
 	connection west, Route46, ROUTE_46, 36
 
 	map_attributes Route46, ROUTE_46, $05, SOUTH | EAST
-	connection south, Route29, ROUTE_29, -10
+	connection south, Route51, ROUTE_51, -10
 	connection east, Route45, ROUTE_45, -36
 
 	map_attributes PewterCity, PEWTER_CITY, $0f, SOUTH | EAST
@@ -673,7 +672,8 @@ ENDM
 	map_attributes Route26HealHouse, ROUTE_26_HEAL_HOUSE, $00, 0
 	map_attributes DayOfWeekSiblingsHouse, DAY_OF_WEEK_SIBLINGS_HOUSE, $00, 0
 	map_attributes Route27SandstormHouse, ROUTE_27_SANDSTORM_HOUSE, $00, 0
-	map_attributes Route29Route46Gate, ROUTE_29_ROUTE_46_GATE, $00, 0
+	map_attributes Route51Route46Gate, ROUTE_51_ROUTE_46_GATE, $00, 0
+	map_attributes RivalsHouse, RIVALS_HOUSE, $00, 0
 	map_attributes FightingDojo, FIGHTING_DOJO, $00, 0
 	map_attributes SaffronGym, SAFFRON_GYM, $00, 0
 	map_attributes SaffronMart, SAFFRON_MART, $00, 0

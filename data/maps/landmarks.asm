@@ -8,11 +8,11 @@ Landmarks:
 ; entries correspond to constants/landmark_constants.asm
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark 140, 100, NewBarkTownName
-	landmark 128, 100, Route29Name
-	landmark 100, 100, CherrygroveCityName
-	landmark 100,  80, Route30Name
-	landmark  96,  60, Route31Name
+	landmark  20,  60, NivaleTownName
+	landmark  40,  60, Route51Name
+	landmark  60,  60, CampanulaTownName
+	landmark  60,  76, Route30Name
+	landmark 36,   72, Route46Name
 	landmark  84,  60, VioletCityName
 	landmark  85,  58, SproutTowerName
 	landmark  84,  92, Route32Name
@@ -52,7 +52,7 @@ Landmarks:
 	landmark 132,  36, DragonsDenName
 	landmark 132,  64, Route45Name
 	landmark 112,  72, DarkCaveName
-	landmark 124,  88, Route46Name
+	landmark  96,  60, Route31Name
 	landmark 148,  68, SilverCaveName
 	assert_table_length KANTO_LANDMARK
 	landmark  52, 108, PalletTownName
@@ -106,8 +106,8 @@ Landmarks:
 	landmark 140, 116, FastShipName
 	assert_table_length NUM_LANDMARKS
 
-NewBarkTownName:     db "NEW BARK¯TOWN@"
-CherrygroveCityName: db "CHERRYGROVE¯CITY@"
+NivaleTownName:     db "NIVALE TOWN@"
+CampanulaTownName: db "CAMPANULA¯TOWN@"
 VioletCityName:      db "VIOLET CITY@"
 AzaleaTownName:      db "AZALEA TOWN@"
 GoldenrodCityName:   db "GOLDENROD¯CITY@"
@@ -180,8 +180,8 @@ Route25Name:         db "ROUTE 25@"
 Route26Name:         db "ROUTE 26@"
 Route27Name:         db "ROUTE 27@"
 Route28Name:         db "ROUTE 28@"
-Route29Name:         db "ROUTE 29@"
-Route30Name:         db "ROUTE 30@"
+Route51Name:         db "ROUTE 51@"
+Route30Name:         db "ROUTE 52@"
 Route31Name:         db "ROUTE 31@"
 Route32Name:         db "ROUTE 32@"
 Route33Name:         db "ROUTE 33@"
@@ -197,7 +197,7 @@ Route42Name:         db "ROUTE 42@"
 Route43Name:         db "ROUTE 43@"
 Route44Name:         db "ROUTE 44@"
 Route45Name:         db "ROUTE 45@"
-Route46Name:         db "ROUTE 46@"
+Route46Name:         db "ROUTE 53@"
 DarkCaveName:        db "DARK CAVE@"
 IlexForestName:      db "ILEX¯FOREST@"
 BurnedTowerName:     db "BURNED¯TOWER@"
