@@ -83,7 +83,7 @@ BattleAnimations::
 	dw BattleAnim_SleepPowder
 	dw BattleAnim_PetalDance
 	dw BattleAnim_StringShot
-	dw BattleAnim_DragonRage
+	dw BattleAnim_DragonDance
 	dw BattleAnim_FireSpin
 	dw BattleAnim_Thundershock
 	dw BattleAnim_Thunderbolt
@@ -97,7 +97,7 @@ BattleAnimations::
 	dw BattleAnim_Confusion
 	dw BattleAnim_PsychicM
 	dw BattleAnim_Hypnosis
-	dw BattleAnim_Meditate
+	dw BattleAnim_CalmMind
 	dw BattleAnim_Agility
 	dw BattleAnim_QuickAttack
 	dw BattleAnim_Rage
@@ -2247,6 +2247,7 @@ BattleAnim_HornAttack:
 	anim_ret
 
 BattleAnim_FuryAttack:
+	anim_if_param_equal $2, BattleAnim_FurySwipes
 	anim_2gfx ANIM_GFX_HORN, ANIM_GFX_HIT
 	anim_obj ANIM_OBJ_HORN, 72, 72, $2
 	anim_wait 8
@@ -2836,7 +2837,7 @@ BattleAnim_QuickAttack:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_Meditate:
+BattleAnim_CalmMind:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
 	anim_sound 0, 0, SFX_PSYBEAM
@@ -4607,6 +4608,18 @@ BattleAnimSub_Drain:
 	anim_obj ANIM_OBJ_DRAIN, 132, 44, $28
 	anim_obj ANIM_OBJ_DRAIN, 132, 44, $30
 	anim_obj ANIM_OBJ_DRAIN, 132, 44, $38
+	anim_ret
+
+BattleAnim_DragonDance:
+	anim_1gfx ANIM_GFX_HIT
+	anim_call BattleAnim_TargetObj_2Row
+	anim_sound 0, 0, SFX_OUTRAGE
+	anim_bgeffect ANIM_BG_WOBBLE_MON, $0, BG_EFFECT_USER, $0
+	anim_bgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING, $0, BG_EFFECT_USER, $20
+	anim_wait 64
+	anim_incbgeffect ANIM_BG_WOBBLE_MON
+	anim_incbgeffect ANIM_BG_CYCLE_MON_LIGHT_DARK_REPEATING
+	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
 BattleAnimSub_EyeBeams:

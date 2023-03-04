@@ -82,7 +82,7 @@ MoveDescriptions::
 	dw SleepPowderDescription
 	dw PetalDanceDescription
 	dw StringShotDescription
-	dw DragonRageDescription
+	dw DragonDanceDescription
 	dw FireSpinDescription
 	dw ThundershockDescription
 	dw ThunderboltDescription
@@ -96,7 +96,7 @@ MoveDescriptions::
 	dw ConfusionDescription
 	dw PsychicMDescription
 	dw HypnosisDescription
-	dw MeditateDescription
+	dw CalmMindDescription
 	dw AgilityDescription
 	dw QuickAttackDescription
 	dw RageDescription
@@ -591,9 +591,9 @@ StringShotDescription:
 	db   "A move that lowers"
 	next "the foe's SPEED.@"
 
-DragonRageDescription:
-	db   "Always inflicts"
-	next "40HP damage.@"
+DragonDanceDescription:
+	db   "Raises ATTACK"
+	next "and SPEED.@"
 
 FireSpinDescription:
 	db   "Traps foe in fire"
@@ -647,9 +647,9 @@ HypnosisDescription:
 	db   "May put the foe to"
 	next "sleep.@"
 
-MeditateDescription:
-	db   "Raises the user's"
-	next "ATTACK.@"
+CalmMindDescription:
+	db   "Raises SPCL.ATK"
+	next "and SPCL.DEF.@"
 
 AgilityDescription:
 	db   "Sharply increases"

@@ -202,7 +202,7 @@ NivaleTown_MapEvents:
 	def_warp_events
 	warp_event  5,  5, RIVALS_HOUSE, 1
 	warp_event 13,  5, PLAYERS_HOUSE_1F, 1
-	warp_event  3, 11, PLAYERS_NEIGHBORS_HOUSE, 1
+	warp_event  3, 11, ELMS_LAB, 1
 
 	def_coord_events
 	coord_event 17,  8, SCENE_DEFAULT, NivaleTown_TeacherStopsYouScene1

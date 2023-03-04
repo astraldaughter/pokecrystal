@@ -80,7 +80,7 @@ CharmanderEvosAttacks:
 	db 25, SCARY_FACE
 	db 31, FLAMETHROWER
 	db 37, SLASH
-	db 43, DRAGON_RAGE
+	db 43, DRAGON_DANCE
 	db 49, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -96,7 +96,7 @@ CharmeleonEvosAttacks:
 	db 27, SCARY_FACE
 	db 34, FLAMETHROWER
 	db 41, SLASH
-	db 48, DRAGON_RAGE
+	db 48, DRAGON_DANCE
 	db 55, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -113,7 +113,7 @@ CharizardEvosAttacks:
 	db 34, FLAMETHROWER
 	db 36, WING_ATTACK
 	db 44, SLASH
-	db 54, DRAGON_RAGE
+	db 54, DRAGON_DANCE
 	db 64, FIRE_SPIN
 	db 0 ; no more level-up moves
 
@@ -121,7 +121,10 @@ SquirtleEvosAttacks:
 	db EVOLVE_LEVEL, 16, WARTORTLE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 4, TAIL_WHIP
+	db 1, CURSE
+	db 1, FURY_ATTACK
+	db 1, DRAGON_DANCE
+	db 4, CALM_MIND
 	db 7, BUBBLE
 	db 10, WITHDRAW
 	db 13, WATER_GUN
@@ -1299,7 +1302,7 @@ DrowzeeEvosAttacks:
 	db 18, CONFUSION
 	db 25, HEADBUTT
 	db 31, POISON_GAS
-	db 36, MEDITATE
+	db 36, CALM_MIND
 	db 40, PSYCHIC_M
 	db 43, PSYCH_UP
 	db 45, FUTURE_SIGHT
@@ -1315,7 +1318,7 @@ HypnoEvosAttacks:
 	db 18, CONFUSION
 	db 25, HEADBUTT
 	db 33, POISON_GAS
-	db 40, MEDITATE
+	db 40, CALM_MIND
 	db 49, PSYCHIC_M
 	db 55, PSYCH_UP
 	db 60, FUTURE_SIGHT
@@ -1438,7 +1441,7 @@ MarowakEvosAttacks:
 HitmonleeEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DOUBLE_KICK
-	db 6, MEDITATE
+	db 6, CALM_MIND
 	db 11, ROLLING_KICK
 	db 16, JUMP_KICK
 	db 21, FOCUS_ENERGY
@@ -1659,7 +1662,7 @@ MrMimeEvosAttacks:
 	db 1, BARRIER
 	db 6, CONFUSION
 	db 11, SUBSTITUTE
-	db 16, MEDITATE
+	db 16, CALM_MIND
 	db 21, DOUBLESLAP
 	db 26, LIGHT_SCREEN
 	db 26, REFLECT
@@ -1766,7 +1769,7 @@ GyaradosEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, THRASH
 	db 20, BITE
-	db 25, DRAGON_RAGE
+	db 25, DRAGON_DANCE
 	db 30, LEER
 	db 35, TWISTER
 	db 40, HYDRO_PUMP
@@ -1991,7 +1994,7 @@ DratiniEvosAttacks:
 	db 1, LEER
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 22, DRAGON_RAGE
+	db 22, DRAGON_DANCE
 	db 29, SLAM
 	db 36, AGILITY
 	db 43, SAFEGUARD
@@ -2008,7 +2011,7 @@ DragonairEvosAttacks:
 	db 1, TWISTER
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 22, DRAGON_RAGE
+	db 22, DRAGON_DANCE
 	db 29, SLAM
 	db 38, AGILITY
 	db 47, SAFEGUARD
@@ -2024,7 +2027,7 @@ DragoniteEvosAttacks:
 	db 1, TWISTER
 	db 8, THUNDER_WAVE
 	db 15, TWISTER
-	db 22, DRAGON_RAGE
+	db 22, DRAGON_DANCE
 	db 29, SLAM
 	db 38, AGILITY
 	db 47, SAFEGUARD

@@ -1971,6 +1971,8 @@ BattleCommand_MoveAnimNoSub:
 	jr z, .alternate_anim
 	cp EFFECT_TRIPLE_KICK
 	jr z, .triplekick
+	cp EFFECT_FURY_ATTACK_FURY_SWIPES
+	jr z, .fury_attack_fury_swipes
 	xor a
 	ld [wBattleAnimParam], a
 
@@ -1995,6 +1997,7 @@ BattleCommand_MoveAnimNoSub:
 	and 1
 	xor 1
 	ld [wBattleAnimParam], a
+.fury_attack
 	ld a, [de]
 	cp 1
 	push af
@@ -2007,6 +2010,22 @@ BattleCommand_MoveAnimNoSub:
 	xor a
 	ld [wNumHits], a
 	jp PlayFXAnimID
+
+.fury_attack_fury_swipes
+	push de
+	ldh a, [hBattleTurn]
+	and a
+	ld a, [wBattleMonSpecies]
+	jr z, .got_user_species
+	ld a, [wEnemyMonSpecies]
+.got_user_species
+	ld hl, FurySwipesUsers
+	call IsInByteArray
+	pop de
+	jr nc, .alternate_anim
+	ld a, $2
+	ld [wBattleAnimParam], a
+	jr .fury_attack
 
 BattleCommand_StatUpAnim:
 	ld a, [wAttackMissed]
@@ -5880,6 +5899,10 @@ EndRechargeOpp:
 	ret
 
 INCLUDE "engine/battle/move_effects/rage.asm"
+
+INCLUDE "engine/battle/move_effects/calm_mind.asm"
+
+INCLUDE "engine/battle/move_effects/dragon_dance.asm"
 
 BattleCommand_DoubleFlyingDamage:
 	ld a, BATTLE_VARS_SUBSTATUS3_OPP

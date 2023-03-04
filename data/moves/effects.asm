@@ -836,6 +836,7 @@ ForceSwitch:
 	forceswitch
 	endmove
 
+FuryAttackFurySwipes:
 MultiHit:
 	checkobedience
 	usedmovetext
@@ -2073,4 +2074,18 @@ DefenseCurl:
 	raisesub
 	statupmessage
 	statupfailtext
+	endmove
+
+CalmMind:
+	checkobedience
+	usedmovetext
+	doturn
+	calmmind
+	endmove
+
+DragonDance:
+	checkobedience
+	usedmovetext
+	doturn
+	dragondance
 	endmove

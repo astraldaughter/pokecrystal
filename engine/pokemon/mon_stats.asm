@@ -446,10 +446,16 @@ ListMoves:
 	push de
 	push hl
 	push hl
+	cp FURY_ATTACK
+	jr nz, .not_fury_attack
+	call GetFuryAttackName
+	jp .cont
+.not_fury_attack
 	ld [wCurSpecies], a
 	ld a, MOVE_NAME
 	ld [wNamedObjectType], a
 	call GetName
+.cont
 	ld de, wStringBuffer1
 	pop hl
 	push bc
@@ -468,7 +474,7 @@ ListMoves:
 	pop de
 	ld a, b
 	cp NUM_MOVES
-	jr z, .done
+	ret z
 	jr .moves_loop
 
 .no_more_moves
@@ -484,6 +490,4 @@ ListMoves:
 	inc a
 	cp NUM_MOVES
 	jr nz, .nonmove_loop
-
-.done
 	ret

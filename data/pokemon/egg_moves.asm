@@ -166,7 +166,7 @@ PsyduckEggMoves:
 MankeyEggMoves:
 	db ROCK_SLIDE
 	db FORESIGHT
-	db MEDITATE
+	db CALM_MIND
 	db COUNTER
 	db REVERSAL
 	db BEAT_UP
@@ -196,7 +196,7 @@ AbraEggMoves:
 
 MachopEggMoves:
 	db LIGHT_SCREEN
-	db MEDITATE
+	db CALM_MIND
 	db ROLLING_KICK
 	db ENCORE
 	db -1 ; end
@@ -371,7 +371,7 @@ HorseaEggMoves:
 	db OCTAZOOKA
 	db DISABLE
 	db SPLASH
-	db DRAGON_RAGE
+	db DRAGON_DANCE
 	db -1 ; end
 
 GoldeenEggMoves:
@@ -775,14 +775,14 @@ TyrogueEggMoves:
 	db -1 ; end
 
 SmoochumEggMoves:
-	db MEDITATE
+	db CALM_MIND
 	db -1 ; end
 
 ElekidEggMoves:
 	db KARATE_CHOP
 	db BARRIER
 	db ROLLING_KICK
-	db MEDITATE
+	db CALM_MIND
 	db CROSS_CHOP
 	db -1 ; end
 

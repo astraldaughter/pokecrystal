@@ -16,6 +16,8 @@ RivalsHouse_MapScripts:
     WaterStarterPokeBallScript:
     GrassStarterPokeBallScript:
         jumptext TestText
+        givepoke EEVEE, 20
+        setevent EVENT_GOT_CHIKORITA_FROM_ELM
 
 RivalsDadText:
     text "I've known PROF."
